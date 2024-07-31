@@ -1,0 +1,10 @@
+///$tab Renaming Fields
+Map_Semantic:
+Mapping
+LOAD
+    "FieldName",
+    SemanticFieldName
+FROM [lib://006_Global_Overview (lamondiale_mlaene)/Master_Items_2.xlsx]
+(ooxml, embedded labels, table is Semantic);
+
+Rename Fields using Map_Semantic;

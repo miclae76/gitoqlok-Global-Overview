@@ -1,0 +1,29 @@
+///$tab Master Items
+TRACE *** Process 900_MasterItems  ****;
+DIMENSIONS:
+REPLACE LOAD
+    %MI%DimensionField,
+    %MI%DimensionName,
+    %MI%DimensionLabelExpression,
+    %MI%DimensionDescription,
+    %MI%DimensionColor,
+    %MI%DimensionTags,
+    %MI%DimensionId
+FROM [lib://006_Global_Overview (lamondiale_mlaene)/Master_Items_2.xlsx]
+(ooxml, embedded labels, table is Dimensions)
+WHERE len(trim(%MI%DimensionField))>0;
+
+
+// MEASURES:
+// REPLACE LOAD
+//     %MI%MeasureExpression,
+//     %MI%MeasureName,
+//     %MI%MeasureLabelExpression,
+//     %MI%MeasureDescription,
+//     %MI%MeasureColor,
+//     %MI%MeasureTags,
+//     %MI%MeasureSegmentColor,
+//     %MI%MeasureSegmentColorFormat,
+//     %MI%MeasureId
+// FROM [lib://F_001_Reporting_Commercial/02_Config/Master_Items.xlsx]
+// (ooxml, embedded labels, table is Measures);

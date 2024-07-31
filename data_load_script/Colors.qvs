@@ -1,0 +1,25 @@
+///$tab Colors 
+//Variables for colors in LMEP theme.
+SET c_brun_100 = '#381A0A' ;
+SET c_brun_70 = '#736054' ;
+SET c_brun_50 = '#9A8B83' ;
+SET c_brun_30 = '#C2BAB5' ;
+SET c_brun_20 = '#D7D0CE' ;
+SET c_cyan_70 = '#49EFFF' ;
+SET c_cyan_30 = '#B1F8FF' ;
+SET c_vert_70 = '#AAFFAA' ;
+SET c_vert_30 = '#BFFFE0' ;
+SET c_rose_70 = '#FEB3E8' ;
+SET c_rose_30 = '#FEE9F8' ;
+SET c_jaune_70 = '#FEF4A1' ;
+SET c_jaune_30 = '#FFFBE3' ;
+SET c_orange_70 = '#FFAA55' ;
+SET c_orange_30 = '#FFD5AA' ;
+SET c_violet_70 = '#AA8EC6' ;
+SET c_violet_30 = '#D5C6E3' ;
+SET c_rouge_pale = '#FFAAAA' ;
+SET c_corail = '#DB6261' ;
+SET c_kpi_rouge = '#E7004C' ;
+SET c_bleu_f = '#5179A1' ;
+SET c_bleu_m = '#8EAAC6' ;
+SET c_kpi_vert = '#00AA55' ;
